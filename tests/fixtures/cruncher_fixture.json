@@ -1,0 +1,288 @@
+[
+ {
+  "input": "*darei/ou",
+  "expected": "*darei/ou\n<NL>N *da_rei_/ou,*darei=os  masc gen sg\t\t\tos_ou</NL>\n"
+ },
+ {
+  "input": "kai\\",
+  "expected": "kai\\\n<NL>N kai/,kai/ \t\tindeclform\tconj</NL>\n"
+ },
+ {
+  "input": "*parusa/tidos",
+  "expected": "*parusa/tidos\n<NL>N *paru/satis  fem gen sg\t\t\tis_idos</NL>\n"
+ },
+ {
+  "input": "gi/gnontai",
+  "expected": "gi/gnontai\n<NL>V gi/gnomai  pres ind mp 3rd pl\t\tpres_redupl\tw_stem,reg_conj</NL>\n"
+ },
+ {
+  "input": "pai=des",
+  "expected": "pai=des\n<NL>N pai=s  masc/fem nom/voc pl\t\tindeclform\tirreg_decl3</NL>\n"
+ },
+ {
+  "input": "du/o",
+  "expected": "du/o\n<NL>N du/o \t\tindeclform\tnumeral</NL>\n"
+ },
+ {
+  "input": "presbu/teros",
+  "expected": "presbu/teros\n<NL>N pre/sbus  masc nom sg\t\tirreg_comp\tos_h_on</NL>\n"
+ },
+ {
+  "input": "me\\n",
+  "expected": "me\\n\n<NL>N me/n,me/n \t\tindeclform\tparticle</NL>\n"
+ },
+ {
+  "input": "*)artace/rchs",
+  "expected": "*)artace/rchs\n<NL>N *)artace/rchs  masc nom sg\t\t\ths_ou</NL>\n"
+ },
+ {
+  "input": "new/teros",
+  "expected": "new/teros\n<NL>N ne/os  masc nom comp sg\t\t\tos_h_on</NL><NL>N ne/os  masc nom comp sg\tattic\t\tos_on</NL><NL>N new/teros  masc nom sg\t\t\tos_h_on</NL>\n"
+ },
+ {
+  "input": "de\\",
+  "expected": "de\\\n<NL>N de/,de/ \t\tindeclform\tparticle</NL>\n"
+ },
+ {
+  "input": "*ku=ros:",
+  "expected": "*ku=ros:\n<NL>N *ku=ros,*ku=ros  masc nom sg\t\t\tos_ou</NL><NL>E *ku=ros,Cyrus  masc nom sg\t\t\tos_ou</NL>\n"
+ },
+ {
+  "input": "e)pei\\",
+  "expected": "e)pei\\\n<NL>N e)pei/,e)pei/ \t\tindeclform\tconj</NL>\n"
+ },
+ {
+  "input": "de\\",
+  "expected": "de\\\n<NL>N de/,de/ \t\tindeclform\tparticle</NL>\n"
+ },
+ {
+  "input": "h)sqe/nei",
+  "expected": "h)sqe/nei\n<NL>V a)sqene/w  imperf ind act 3rd sg\tattic epic ionic\tcontr\tew_pr,ew_denom</NL>\n"
+ },
+ {
+  "input": "*darei=os",
+  "expected": "*darei=os\n<NL>N *da_rei=os,*darei=os  masc nom sg\t\t\tos_ou</NL>\n"
+ },
+ {
+  "input": "kai\\",
+  "expected": "kai\\\n<NL>N kai/,kai/ \t\tindeclform\tconj</NL>\n"
+ },
+ {
+  "input": "u(pw/pteue",
+  "expected": "u(pw/pteue\n<NL>V u(popteu/w  imperf ind act 3rd sg\t\t\tw_stem,euw</NL>\n"
+ },
+ {
+  "input": "teleuth\\n",
+  "expected": "teleuth\\n\n<NL>N teleuth/n,teleuth/  fem acc sg\tattic epic ionic\t\th_hs</NL>\n"
+ },
+ {
+  "input": "tou=",
+  "expected": "tou=\n<NL>N o(  masc/neut gen sg\t\tindeclform\tarticle</NL><NL>N ti/s  gen sg\tattic\tindeclform\tindecl</NL><NL>N tis  gen sg\tattic\tenclitic indeclform\tindef</NL>\n"
+ },
+ {
+  "input": "bi/ou",
+  "expected": "bi/ou\n<NL>N bi/os  masc gen sg\t\t\tos_ou</NL><NL>V bio/w  pres imperat act 2nd sg\t\tcontr\tow_pr,ow_denom</NL><NL>V bio/w  imperf ind mp 2nd sg\tattic epic doric\tcontr unaugmented\tw_stem</NL><NL>V bio/w  imperf ind act 3rd sg\thomeric ionic\tcontr unaugmented\tow_pr,ow_denom</NL>\n"
+ },
+ {
+  "input": "e)bou/leto",
+  "expected": "e)bou/leto\n<NL>V bou/lomai  imperf ind mp 3rd sg\t\t\tw_stem,nw</NL>\n"
+ },
+ {
+  "input": "tw\\",
+  "expected": "tw\\\n<NL>N tw/,o(  fem nom/voc/acc dual\t\tindeclform\tarticle</NL><NL>N tw/,o(  masc/neut acc dual\t\tindeclform\tarticle</NL><NL>N tw/,o(  masc/neut nom/voc/acc dual\t\tindeclform\tarticle</NL><NL>N tw/,tw=| \t\tindeclform\tadverb</NL>\n"
+ },
+ {
+  "input": "pai=de",
+  "expected": "pai=de\n<NL>N pai=s  masc/fem nom/voc/acc dual\t\tindeclform\tirreg_decl3</NL>\n"
+ },
+ {
+  "input": "a)mfote/rw",
+  "expected": "a)mfote/rw\n<NL>N a)mfo/teros  masc/neut nom/voc/acc dual\t\t\tos_h_on</NL><NL>N a)mfo/teros  masc/neut gen sg\tdoric aeolic\t\tos_h_on</NL>\n"
+ },
+ {
+  "input": "parei=nai",
+  "expected": "parei=nai\n<NL>V pa/reimi1  pres inf act\t\t\tirreg_mi</NL><NL>V pari/hmi  aor inf act\t\t\tath_secondary</NL><NL>V pari/hmi  aor inf act\t\t\tirreg_mi</NL>\n"
+ },
+ {
+  "input": "*darei/ou",
+  "opts": [
+   "-n"
+  ],
+  "expected": "*darei/ou\n<NL>N *da_rei_/ou,*darei=os  masc gen sg\t\t\tos_ou</NL>\n"
+ },
+ {
+  "input": "kai\\",
+  "opts": [
+   "-n"
+  ],
+  "expected": "kai\\\n<NL>N kai/,kai/ \t\tindeclform\tconj</NL>\n"
+ },
+ {
+  "input": "*parusa/tidos",
+  "opts": [
+   "-n"
+  ],
+  "expected": "*parusa/tidos\n<NL>N *paru/satis  fem gen sg\t\t\tis_idos</NL>\n"
+ },
+ {
+  "input": "gi/gnontai",
+  "opts": [
+   "-n"
+  ],
+  "expected": "gi/gnontai\n<NL>V gi/gnomai  pres ind mp 3rd pl\t\tpres_redupl\tw_stem,reg_conj</NL>\n"
+ },
+ {
+  "input": "pai=des",
+  "opts": [
+   "-n"
+  ],
+  "expected": "pai=des\n<NL>N pai=s  masc/fem nom/voc pl\t\tindeclform\tirreg_decl3</NL>\n"
+ },
+ {
+  "input": "du/o",
+  "opts": [
+   "-n"
+  ],
+  "expected": "du/o\n<NL>N du/o \t\tindeclform\tnumeral</NL>\n"
+ },
+ {
+  "input": "presbu/teros",
+  "opts": [
+   "-n"
+  ],
+  "expected": "presbu/teros\n<NL>N pre/sbus  masc nom sg\t\tirreg_comp\tos_h_on</NL>\n"
+ },
+ {
+  "input": "me\\n",
+  "opts": [
+   "-n"
+  ],
+  "expected": "me\\n\n<NL>N me/n,me/n \t\tindeclform\tparticle</NL>\n"
+ },
+ {
+  "input": "*)artace/rchs",
+  "opts": [
+   "-n"
+  ],
+  "expected": "*)artace/rchs\n<NL>N *)artace/rchs  masc nom sg\t\t\ths_ou</NL>\n"
+ },
+ {
+  "input": "new/teros",
+  "opts": [
+   "-n"
+  ],
+  "expected": "new/teros\n<NL>N ne/os  masc nom comp sg\t\t\tos_h_on</NL><NL>N ne/os  masc nom comp sg\tattic\t\tos_on</NL><NL>N new/teros  masc nom sg\t\t\tos_h_on</NL>\n"
+ },
+ {
+  "input": "de\\",
+  "opts": [
+   "-n"
+  ],
+  "expected": "de\\\n<NL>N de/,de/ \t\tindeclform\tparticle</NL>\n"
+ },
+ {
+  "input": "*ku=ros:",
+  "opts": [
+   "-n"
+  ],
+  "expected": "*ku=ros:\n<NL>N *ku=ros,*ku=ros  masc nom sg\t\t\tos_ou</NL><NL>E *ku=ros,Cyrus  masc nom sg\t\t\tos_ou</NL>\n"
+ },
+ {
+  "input": "e)pei\\",
+  "opts": [
+   "-n"
+  ],
+  "expected": "e)pei\\\n<NL>V e)pei=,e)/peimi1  pres ind act 2nd sg\t\tunasp_preverb\tirreg_mi</NL><NL>V e)/pei,e)/peimi2  pres ind act 2nd sg\t\tunasp_preverb\tirreg_mi</NL><NL>N e)/pei,e)/pos  neut nom/voc/acc dual\tattic epic\tcontr\ths_eos</NL><NL>N e)/pei+,e)/pos  neut dat sg\tepic ionic\t\ths_eos</NL><NL>N e)/pei,e)/pos  neut dat sg\t\tcontr\ths_eos</NL><NL>N e)pei/,e)pei/ \t\tindeclform\tconj</NL>\n"
+ },
+ {
+  "input": "de\\",
+  "opts": [
+   "-n"
+  ],
+  "expected": "de\\\n<NL>N de/,de/ \t\tindeclform\tparticle</NL>\n"
+ },
+ {
+  "input": "h)sqe/nei",
+  "opts": [
+   "-n"
+  ],
+  "expected": "h)sqe/nei\n<NL>V a)sqene/w  imperf ind act 3rd sg\tattic epic ionic\tcontr\tew_pr,ew_denom</NL>\n"
+ },
+ {
+  "input": "*darei=os",
+  "opts": [
+   "-n"
+  ],
+  "expected": "*darei=os\n<NL>N *da_rei=os,*darei=os  masc nom sg\t\t\tos_ou</NL>\n"
+ },
+ {
+  "input": "kai\\",
+  "opts": [
+   "-n"
+  ],
+  "expected": "kai\\\n<NL>N kai/,kai/ \t\tindeclform\tconj</NL>\n"
+ },
+ {
+  "input": "u(pw/pteue",
+  "opts": [
+   "-n"
+  ],
+  "expected": "u(pw/pteue\n<NL>V u(popteu/w  imperf ind act 3rd sg\t\t\tw_stem,euw</NL>\n"
+ },
+ {
+  "input": "teleuth\\n",
+  "opts": [
+   "-n"
+  ],
+  "expected": "teleuth\\n\n<NL>V teleuth=n,teleuta/w  pres inf act\tdoric ionic\tcontr\taw_pr,aw_denom</NL><NL>V teleuth=n,teleuta/w  pres inf act\tepic doric ionic\tcontr\tew_pr,aw_denom</NL><NL>V teleu/thn,teleuta/w  imperf ind act 3rd pl\tepic doric aeolic\tunaugmented\tath_primary,aw_denom</NL><NL>V teleu/thn,teleuta/w  imperf ind act 1st sg\thomeric ionic\tunaugmented\tath_primary,aw_denom</NL><NL>N teleuth/n,teleuth/  fem acc sg\tattic epic ionic\t\th_hs</NL>\n"
+ },
+ {
+  "input": "tou=",
+  "opts": [
+   "-n"
+  ],
+  "expected": "tou=\n<NL>N o(  masc/neut gen sg\t\tindeclform\tarticle</NL><NL>N ti/s  gen sg\tattic\tindeclform\tindecl</NL><NL>N tis  gen sg\tattic\tenclitic indeclform\tindef</NL>\n"
+ },
+ {
+  "input": "bi/ou",
+  "opts": [
+   "-n"
+  ],
+  "expected": "bi/ou\n<NL>N bi/os  masc gen sg\t\t\tos_ou</NL><NL>V biou=,bia/w  pres imperat mp 2nd sg\tattic epic ionic\tcontr\tew_pr,aw_denom</NL><NL>N biou=,bio/s  masc gen sg\t\t\tos_ou</NL><NL>V biou=,bio/w  pres imperat mp 2nd sg\t\tcontr\tow_pr,ow_denom</NL><NL>V bio/w  pres imperat act 2nd sg\t\tcontr\tow_pr,ow_denom</NL><NL>V bio/w  imperf ind mp 2nd sg\tattic epic doric\tcontr unaugmented\tw_stem</NL><NL>V biou=,bio/w  imperf ind mp 2nd sg\thomeric ionic\tcontr unaugmented\tow_pr,ow_denom</NL><NL>V bio/w  imperf ind act 3rd sg\thomeric ionic\tcontr unaugmented\tow_pr,ow_denom</NL>\n"
+ },
+ {
+  "input": "e)bou/leto",
+  "opts": [
+   "-n"
+  ],
+  "expected": "e)bou/leto\n<NL>V bou/lomai  imperf ind mp 3rd sg\t\t\tw_stem,nw</NL>\n"
+ },
+ {
+  "input": "tw\\",
+  "opts": [
+   "-n"
+  ],
+  "expected": "tw\\\n<NL>N tw/,o(  fem nom/voc/acc dual\t\tindeclform\tarticle</NL><NL>N tw/,o(  masc/neut acc dual\t\tindeclform\tarticle</NL><NL>N tw/,o(  masc/neut nom/voc/acc dual\t\tindeclform\tarticle</NL><NL>N tw=,o(  masc/neut gen sg\tdoric aeolic\tindeclform\tarticle</NL><NL>N tw/,tw=| \t\tindeclform\tadverb</NL><NL>N tw=,tw=| \t\tindeclform\tadverb</NL>\n"
+ },
+ {
+  "input": "pai=de",
+  "opts": [
+   "-n"
+  ],
+  "expected": "pai=de\n<NL>N pai=s  masc/fem nom/voc/acc dual\t\tindeclform\tirreg_decl3</NL>\n"
+ },
+ {
+  "input": "a)mfote/rw",
+  "opts": [
+   "-n"
+  ],
+  "expected": "a)mfote/rw\n<NL>N a)mfo/teros  masc/neut nom/voc/acc dual\t\t\tos_h_on</NL><NL>N a)mfo/teros  masc/neut gen sg\tdoric aeolic\t\tos_h_on</NL>\n"
+ },
+ {
+  "input": "parei=nai",
+  "opts": [
+   "-n"
+  ],
+  "expected": "parei=nai\n<NL>V pa/reimi1  pres inf act\t\t\tirreg_mi</NL><NL>V pari/hmi  aor inf act\t\t\tath_secondary</NL><NL>V pari/hmi  aor inf act\t\t\tirreg_mi</NL>\n"
+ }
+]
