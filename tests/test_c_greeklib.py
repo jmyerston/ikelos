@@ -1,4 +1,4 @@
-"""Differential tests: pymorpheus.greeklib vs the C greeklib (via ctypes)."""
+"""Differential tests: ikelos.greeklib vs the C greeklib (via ctypes)."""
 
 from __future__ import annotations
 
@@ -10,8 +10,8 @@ import random
 import pytest
 
 import clib
-from pymorpheus import greeklib as G
-from pymorpheus.stemlib import read_text
+from ikelos import greeklib as G
+from ikelos.stemlib import read_text
 
 pytestmark = pytest.mark.skipif(clib.lib() is None, reason="C library not built (tools/build_clib.sh)")
 

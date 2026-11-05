@@ -20,7 +20,7 @@ KEYLEN = 8
 
 
 def _data_dir():
-    return resources.files("pymorpheus").joinpath("data", "greek")
+    return resources.files("ikelos").joinpath("data", "greek")
 
 
 def _open_gz(rel: str) -> bytes:

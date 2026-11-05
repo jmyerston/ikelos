@@ -31,7 +31,7 @@ def _fixture_greek():
 
 @pytest.mark.parametrize("example", _fixture_greek(), ids=lambda e: f"{e['input']}{e.get('opts', [])}")
 def test_fixture(example):
-    from pymorpheus.cli import crunch
+    from ikelos.cli import crunch
 
     assert crunch(example["input"], example.get("opts", [])) == example["expected"]
 
@@ -41,7 +41,7 @@ FULL = os.environ.get("MORPHEUS_FULL_GOLDEN") == "1"
 
 @pytest.mark.parametrize("name,flags", [("default", ["-S"]), ("n", ["-S", "-n"])])
 def test_golden(name, flags):
-    from pymorpheus.cli import analyses_strings
+    from ikelos.cli import analyses_strings
 
     rows = _golden(name)
     if not FULL:

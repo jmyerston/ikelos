@@ -1,4 +1,4 @@
-# pymorpheus
+# ikelos
 
 Pure-Python port of the Ancient Greek side of
 [Morpheus](https://github.com/perseids-tools/morpheus), the Perseus morphological
@@ -8,7 +8,7 @@ bundled, so it needs no C compiler. It was built to run inside
 like Morpheus.
 
 ```bash
-pip install git+https://github.com/jmyerston/pymorpheus
+pip install ikelos
 ```
 
 **Status: alpha.** The whole Greek runtime path of `cruncher` is ported
@@ -17,32 +17,32 @@ output on the test fixtures and on the UD-derived golden corpus (see
 `tests/test_parity.py`).
 
 ```python
->>> import pymorpheus
->>> pymorpheus.lemmatize("λόγους")
+>>> import ikelos
+>>> ikelos.lemmatize("λόγους")
 ['λόγος', 'λογόω']
->>> a = pymorpheus.analyze("ἀνθρώπου")[0]
+>>> a = ikelos.analyze("ἀνθρώπου")[0]
 >>> a.lemma, a.pos, a.features
 ('ἄνθρωπος', 'noun', {'gender': 'masc', 'case': 'gen', 'number': 'sg'})
 ```
 
-`pymorpheus [-S] [-n]` reads Beta Code words on stdin and prints the same
+`ikelos [-S] [-n]` reads Beta Code words on stdin and prints the same
 Perseus-format output as `cruncher`.
 
 ## Layout
 
 | Path | What |
 | - | - |
-| `pymorpheus/betacode.py` | Morpheus Beta Code ↔ NFC Unicode (quantity marks, `ʼ` apostrophe) |
-| `pymorpheus/stemlib.py` | Lazy loaders plus exact emulations of the C lookups (`binlook`, `ChckPreIndex`, `ChckFullIndex`, `checkendind`, `morphstrcmp`) |
-| `pymorpheus/greeklib.py` | `src/greeklib` (accents, breathings, syllables, quantity) and the `greek.h` macros |
-| `pymorpheus/gkstring.py` | `gk_string` / `gk_word` types, morph flags, dialect logic |
-| `pymorpheus/morphkeys.py` | Key vocabulary and `ScanAsciiKeys` |
-| `pymorpheus/morphlib.py` | Augment, preverbs, accentuation (`FixPersAcc`/`FixRecAcc`), euphony tables |
-| `pymorpheus/gkends.py`, `gkdict.py` | Ending retrieval (`chckendings`, `WantGkEnd`) and stem/derivation lookups |
-| `pymorpheus/analyzer.py` | `src/anal/check*.c` plus the generator `src/gener/genwd.c` |
-| `pymorpheus/cli.py`, `api.py` | `cruncher` emulation (Perseus output) and the Python API |
-| `pymorpheus/consts.py`, `keytables.py` | Generated from the C headers by `tools/gen_tables.py` |
-| `pymorpheus/data/greek/` | Generated data (do not edit by hand) |
+| `ikelos/betacode.py` | Morpheus Beta Code ↔ NFC Unicode (quantity marks, `ʼ` apostrophe) |
+| `ikelos/stemlib.py` | Lazy loaders plus exact emulations of the C lookups (`binlook`, `ChckPreIndex`, `ChckFullIndex`, `checkendind`, `morphstrcmp`) |
+| `ikelos/greeklib.py` | `src/greeklib` (accents, breathings, syllables, quantity) and the `greek.h` macros |
+| `ikelos/gkstring.py` | `gk_string` / `gk_word` types, morph flags, dialect logic |
+| `ikelos/morphkeys.py` | Key vocabulary and `ScanAsciiKeys` |
+| `ikelos/morphlib.py` | Augment, preverbs, accentuation (`FixPersAcc`/`FixRecAcc`), euphony tables |
+| `ikelos/gkends.py`, `gkdict.py` | Ending retrieval (`chckendings`, `WantGkEnd`) and stem/derivation lookups |
+| `ikelos/analyzer.py` | `src/anal/check*.c` plus the generator `src/gener/genwd.c` |
+| `ikelos/cli.py`, `api.py` | `cruncher` emulation (Perseus output) and the Python API |
+| `ikelos/consts.py`, `keytables.py` | Generated from the C headers by `tools/gen_tables.py` |
+| `ikelos/data/greek/` | Generated data (do not edit by hand) |
 | `tools/export_data.py` | Regenerates `data/greek` from `$MORPHEUS_HOME/stemlib/Greek` |
 | `tools/dump_endtables.c` | Dev-only decoder for the binary `*.out` endtables, built with the real C reader |
 | `tools/make_golden.py` | Runs the C `cruncher` over UD treebank forms to produce `tests/golden/` |

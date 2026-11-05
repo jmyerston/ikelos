@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the Greek stemlib into the pymorpheus package data directory.
+"""Export the Greek stemlib into the ikelos package data directory.
 
 Binary endtables (``endtables/out/*.out``, ``derivs/out/*.out``) are decoded
 with the real C reader (``tools/dump_endtables.c``, linked against the built
@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REPO = Path(os.environ.get("MORPHEUS_HOME", Path(__file__).resolve().parents[2] / "morpheus"))
 SRC = REPO / "src"
 GREEK = REPO / "stemlib" / "Greek"
-OUT = ROOT / "pymorpheus" / "data" / "greek"
+OUT = ROOT / "ikelos" / "data" / "greek"
 
 LIBS = [
     "gener/genwd.o", "anal/anal.a", "gener/gener.a", "gkends/gkends.a",

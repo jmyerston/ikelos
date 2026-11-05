@@ -1,4 +1,4 @@
-"""Generate ``pymorpheus/consts.py`` and ``pymorpheus/keytables.py`` from
+"""Generate ``ikelos/consts.py`` and ``ikelos/keytables.py`` from
 the C headers, so numeric constants and key tables can never drift from C.
 
     python tools/gen_tables.py
@@ -14,7 +14,7 @@ import os
 
 # C Morpheus checkout (default: sibling directory ../morpheus)
 SRC = Path(os.environ.get("MORPHEUS_HOME", Path(__file__).resolve().parents[2] / "morpheus")) / "src"
-PKG = HERE.parent / "pymorpheus"
+PKG = HERE.parent / "ikelos"
 
 HEADERS = [
     "includes/greek.h",

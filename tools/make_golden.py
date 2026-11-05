@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REPO = Path(os.environ.get("MORPHEUS_HOME", Path(__file__).resolve().parents[2] / "morpheus"))
 sys.path.insert(0, str(ROOT))
 
-from pymorpheus.betacode import unicode_to_beta  # noqa: E402
+from ikelos.betacode import unicode_to_beta  # noqa: E402
 
 FLAG_SETS = {"default": ["-S"], "n": ["-S", "-n"]}
 NL_RE = re.compile(r"<NL>(.*?)</NL>")

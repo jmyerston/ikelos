@@ -9,11 +9,11 @@ import pytest
 
 import clib
 from clib import CGkString, CGkWord, CWordForm, gs_from_c, gs_to_c, gs_tuple, gw_from_c, gw_to_c, gw_tuple
-from pymorpheus import consts as C
-from pymorpheus import morphlib as M
-from pymorpheus.gkstring import GkString, GkWord, WordForm, add_morphflag
-from pymorpheus.morphkeys import ScanAsciiKeys
-from pymorpheus.stemlib import read_text
+from ikelos import consts as C
+from ikelos import morphlib as M
+from ikelos.gkstring import GkString, GkWord, WordForm, add_morphflag
+from ikelos.morphkeys import ScanAsciiKeys
+from ikelos.stemlib import read_text
 
 pytestmark = pytest.mark.skipif(clib.lib() is None, reason="C library not built (tools/build_clib.sh)")
 
@@ -122,7 +122,7 @@ def test_unredupl_unaugfromlemma():
 def test_putsimpleacc_cmpend_dictstrcmp():
     L = clib.lib()
     for w in WORDS:
-        from pymorpheus.greeklib import stripacc
+        from ikelos.greeklib import stripacc
 
         bare = stripacc(w)[0]
         _, out = clib.call_str("putsimpleacc", bare)
@@ -200,7 +200,7 @@ ENDINGS = ["os", "ou", "w|", "on", "e", "oi", "wn", "ois", "ous", "a", "h", "hs"
 
 def test_fixpersacc():
     L = clib.lib()
-    from pymorpheus.greeklib import stripacc
+    from ikelos.greeklib import stripacc
 
     for w in RND.sample(WORDS, 400):
         stem = stripacc(w)[0][:-2] or stripacc(w)[0]
@@ -240,7 +240,7 @@ def test_markstem():
 def test_add_augment_unaugment():
     L = clib.lib()
     for w in WORDS:
-        from pymorpheus.greeklib import stripacc
+        from ikelos.greeklib import stripacc
 
         s = stripacc(w)[0]
         for tense, mood in ((C.AORIST, C.INDICATIVE), (C.IMPERF, C.INDICATIVE), (C.PLUPERF, C.INDICATIVE),

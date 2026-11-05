@@ -9,11 +9,11 @@ import pytest
 
 import clib
 from clib import CGkString, gs_from_c, gs_to_c, gs_tuple
-from pymorpheus import gkdict as D
-from pymorpheus import gkends as E
-from pymorpheus.gkstring import GkString
-from pymorpheus.greeklib import stripacc
-from pymorpheus.stemlib import read_text
+from ikelos import gkdict as D
+from ikelos import gkends as E
+from ikelos.gkstring import GkString
+from ikelos.greeklib import stripacc
+from ikelos.stemlib import read_text
 
 pytestmark = pytest.mark.skipif(clib.lib() is None, reason="C library not built (tools/build_clib.sh)")
 
@@ -108,8 +108,8 @@ def test_compatkeys():
             for is_deriv in (0, 1):
                 g = GkString()
                 if is_deriv:
-                    from pymorpheus.gkstring import add_morphflag
-                    from pymorpheus import consts as C
+                    from ikelos.gkstring import add_morphflag
+                    from ikelos import consts as C
                     g.morphflags = add_morphflag(0, C.IS_DERIV)
                 cg = gs_to_c(g)
                 r = L.CompatKeys(clib.cbuf(k1), clib.cbuf(restricts), ctypes.byref(cg))

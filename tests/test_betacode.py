@@ -1,6 +1,6 @@
 import pytest
 
-from pymorpheus.betacode import beta_to_unicode, unicode_to_beta
+from ikelos.betacode import beta_to_unicode, unicode_to_beta
 
 PAIRS = [
     ("a)/nqrwpos", "ἄνθρωπος"),

@@ -58,7 +58,7 @@ def call_str(name: str, s: str, *args, restype=ctypes.c_int):
 # gk_word 960, gk_analysis 1116)
 # --------------------------------------------------------------------------
 
-from pymorpheus.gkstring import GkString, GkWord, WordForm  # noqa: E402
+from ikelos.gkstring import GkString, GkWord, WordForm  # noqa: E402
 
 
 class CWordForm(ctypes.Structure):

@@ -1,4 +1,4 @@
-import pymorpheus as m
+import ikelos as m
 
 
 def test_lemmatize_unicode():

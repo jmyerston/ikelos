@@ -1,6 +1,6 @@
 import pytest
 
-from pymorpheus import stemlib
+from ikelos import stemlib
 
 
 def test_endtables_loaded():

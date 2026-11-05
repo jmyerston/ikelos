@@ -3,8 +3,8 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pymorpheus"
-version = "0.1.0.dev0"
+name = "ikelos"
+version = "0.1.0.dev1"
 description = "Pure-Python port of the Morpheus Ancient Greek morphological analyzer"
 keywords = ["ancient greek", "morphology", "lemmatization", "morpheus", "nlp"]
 readme = "README.md"
@@ -13,17 +13,17 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/jmyerston/pymorpheus"
+Homepage = "https://github.com/jmyerston/ikelos"
 "Original C Morpheus" = "https://github.com/perseids-tools/morpheus"
 
 [project.optional-dependencies]
 test = ["pytest"]
 
 [project.scripts]
-pymorpheus = "pymorpheus.cli:main"
+ikelos = "ikelos.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["pymorpheus*"]
+include = ["ikelos*"]
 
 [tool.setuptools.package-data]
-pymorpheus = ["data/**/*"]
+ikelos = ["data/**/*"]

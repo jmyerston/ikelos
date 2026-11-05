@@ -1,7 +1,7 @@
 """Command-line front end mimicking the C ``cruncher`` for Greek
 (``src/anal/stdiomorph.c`` and the Perseus output of ``prntanal.c``).
 
-    echo 'lo/gos' | pymorpheus -S
+    echo 'lo/gos' | ikelos -S
 """
 
 from __future__ import annotations
@@ -227,7 +227,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         flags = parse_flags(opts)
     except ValueError as e:
-        print(f"pymorpheus: {e}", file=sys.stderr)
+        print(f"ikelos: {e}", file=sys.stderr)
         return 2
     for raw in sys.stdin:
         line = _trimwhite(raw.rstrip("\n"))

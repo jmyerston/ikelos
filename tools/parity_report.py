@@ -12,7 +12,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
-from pymorpheus.cli import analyses_strings  # noqa: E402
+from ikelos.cli import analyses_strings  # noqa: E402
 
 FLAGS = {"default": ["-S"], "n": ["-S", "-n"]}
 
